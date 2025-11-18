@@ -25,7 +25,7 @@ export default function Home({ allData }) {
         <Head>
         <title>{siteTitle}</title>
       </Head>
-        <h1>List of Names</h1>
+        <h1>List of Shops</h1>
         <div className="list-group">
             {allData.map(({ id, name }) => (
                 <Link key={id} href={`/${id}`}>
