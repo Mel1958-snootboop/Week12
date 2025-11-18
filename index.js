@@ -22,6 +22,9 @@ export default function Home({ allData }) {
   return (
 
     <Layout home>
+        <Head>
+        <title>{siteTitle}</title>
+      </Head>
         <h1>List of Names</h1>
         <div className="list-group">
             {allData.map(({ id, name }) => (
