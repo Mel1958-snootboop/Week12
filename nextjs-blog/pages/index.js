@@ -5,6 +5,8 @@
  import Layout, { siteTitle } from '../components/layout';
 
  import { getSortedList } from '../lib/data';
+
+ import Link from "next/link";
  
 // Runs at build time to fetch data needed to pre-render this page.
 // Calls `getSortedPostsData()` to read and sort post metadata and
