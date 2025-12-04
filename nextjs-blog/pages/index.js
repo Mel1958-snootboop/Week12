@@ -30,9 +30,9 @@ export default function Home({ allData }) {
         <h1>List of Shops</h1>
         <div className="list-group">
             {allData.map(({ id, name }) => (
-                <Link key={id} href={`/${id}`}>
-               <a className="list-group-item list-group-item-action">{name}</a>
-                </Link>
+                <Link key={id} href={`/${id}`} 
+                className="list-group-item list-group-item-action">
+                {name} </Link>
             ))}
             
         </div>
