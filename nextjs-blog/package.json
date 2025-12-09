@@ -9,7 +9,7 @@
     "date-fns": "^4.1.0",
     "got": "^9.6.0",
     "gray-matter": "^4.0.3",
-    "next": "latest",
+    "next": "15.5.7",
     "react": "latest",
     "react-dom": "latest",
     "remark": "^15.0.1",
